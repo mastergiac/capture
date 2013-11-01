@@ -1,0 +1,5 @@
+1) input the script into /etc/cron.d
+2) crontab -e 
+*/10 * * * * python /etc/cron.d/capture.py
+
+
